@@ -1,13 +1,11 @@
 #author ate (10/14/22)
 
+#variable containing word choice
 word = 'flibbertigibbet'
-
-print(word.find('t'))
-
 hi = 'aidan'
+ss = "I wish, I wish, I was a fish."
 
+#printing each word with and string output
+print(word.find('t'))
 print (hi.capitalize())
-
-ss ="i wish, I wish, I was a fish."
-
-print(ss.split())
+print(ss.split(','))
